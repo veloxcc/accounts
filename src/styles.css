@@ -1,0 +1,77 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin-bottom: 5rem;
+}
+
+.page-contents {
+  margin-top: 2rem;
+}
+
+.firebaseui-title {
+  font-size: 3.5rem;
+}
+
+.firebaseui-card-header,
+.firebaseui-card-content,
+.firebaseui-card-actions,
+.firebaseui-card-footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.firebaseui-form-actions {
+  text-align: left;
+}
+
+#firebaseui-auth-container form {
+  max-width: 500px;
+}
+
+.firebaseui-email-sent {
+  margin-bottom: 24px;
+}
+
+.firebaseui-error-wrapper {
+  margin-top: 8px;
+}
+
+.firebaseui-error {
+  font-size: 14px;
+}
+
+.firebaseui-id-page-sign-in .firebaseui-id-secondary-link {
+  display: none;
+}
+
+.firebaseui-id-page-sign-in .firebaseui-textfield {
+  max-width: 320px;
+}
+
+.firebaseui-id-page-email-link-sign-in-sent .firebaseui-card-content {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.firebaseui-id-page-email-link-sign-in-sent .firebaseui-email-sent {
+  margin: 0 16px 0 0;
+  width: 32px;
+  flex-shrink: 0;
+  background-size: 32px;
+  height: 32px;
+}
+
+.firebaseui-id-page-email-link-sign-in-sent .firebaseui-text {
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.firebaseui-tos {
+  font-weight: 300;
+  font-size: 1.5rem;
+  max-width: 350px;
+}
