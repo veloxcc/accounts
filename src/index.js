@@ -39,7 +39,7 @@ const App = props => {
   }, []);
 
   return (
-    <Router>
+    <Router basename={process.env.NODE_ENV === 'production' ? '/accounts' : null}>
       <div className="container">
         <header>
           <div className="row">
