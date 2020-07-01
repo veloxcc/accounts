@@ -43,7 +43,8 @@ body {
   font-size: 14px;
 }
 
-.firebaseui-id-page-sign-in .firebaseui-id-secondary-link {
+.firebaseui-id-page-sign-in .firebaseui-id-secondary-link,
+.firebaseui-id-page-email-link-sign-in-confirmation .firebaseui-id-secondary-link {
   display: none;
 }
 
