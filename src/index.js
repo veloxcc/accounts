@@ -8,7 +8,6 @@ import {
   Switch,
   Redirect,
   Route,
-  Link,
 } from 'react-router-dom';
 import firebase from './utils/firebase';
 
@@ -45,7 +44,7 @@ const App = props => {
           <div className="row">
             <div className="column">
               <div className="header-overlay">
-                <Link to="/">velox.cc</Link> / accounts
+                <a href="/">velox.cc</a> / accounts
               </div>
             </div>
           </div>
